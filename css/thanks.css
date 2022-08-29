@@ -165,7 +165,7 @@ body {
 }
 .thanks__link {
   display: flex;
-  margin-bottom: 27px;
+  margin-bottom: 10px;
 }
 .thanks__link-text {
   font-family: "Helvetica";
@@ -248,6 +248,10 @@ body {
 .thanks__phone-bottom span{
   display: block;
 }
+.thanks__footer-body{
+  padding: 72px 0 28px;
+}
+
 @media (max-width: 1023px) {
   .thanks__title {
     font-size: 36px;
@@ -332,6 +336,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .thanks__footer-body {
+    padding: 40px 0 25px;
+}
   .thanks__title {
     font-size: 20px;
     text-align: center;
